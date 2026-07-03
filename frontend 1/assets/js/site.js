@@ -100,6 +100,9 @@
             learnDropdownHtml() +
             navLink(BASE_URL + "/pricing", "Pricing").outerHTML +
             navLink(BASE_URL + "/contact", "Contact").outerHTML +
+            '      <a href="' + BASE_URL + '/upgrade" class="px-5 py-2.5 rounded-xl font-bold text-sm bg-primary text-white hover:bg-primary/90 transition-colors">' +
+            '        Upgrade to Pro' +
+            '      </a>' +
             '      <a href="' + TOOLS_URL + '" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm bg-slate-900 text-white hover:bg-slate-800 transition-colors shadow-md">' +
             '        <i class="fa-solid fa-gauge-high"></i> Dashboard' +
             '      </a>' +
@@ -128,6 +131,7 @@
 '    </div>' +
 '    <a href="' + BASE_URL + '/pricing" class="block px-4 py-3 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors" role="menuitem">Pricing</a>' +
 '    <a href="' + BASE_URL + '/contact" class="block px-4 py-3 rounded-xl text-sm font-bold text-slate-700 hover:bg-slate-50 transition-colors" role="menuitem">Contact</a>' +
+            '    <a href="' + BASE_URL + '/upgrade" class="block px-4 py-3 rounded-xl text-sm font-bold text-white bg-primary hover:bg-primary/90 transition-colors text-center" role="menuitem">Upgrade to Pro</a>' +
             '    <a href="' + TOOLS_URL + '" class="block px-4 py-3 rounded-xl text-sm font-bold text-white bg-slate-900 hover:bg-slate-800 transition-colors text-center" role="menuitem">Dashboard</a>' +
             '  </div>' +
             '</div>';
